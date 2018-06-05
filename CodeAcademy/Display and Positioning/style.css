@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+}
+header {
+    border: 1px solid #466995;
+    background-color: #466995;
+}
+ul li {
+    color: white;
+    text-align: center;
+    padding: 10px:
+}
+li:hover {
+    color: #DBE9EE;
+    
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding: 30px;
+}
+h4 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.welcome h1 {
+    color: #466995;
+    font-weight: 800;
+    text-align: center;
+
+}
+.welcome {
+    text-align: center;
+    background-color: #DBE9EE;
+    padding: 30px;
+}
+.question {
+    text-align: center;
+}
+
+.answer {
+    border: 1px solid #466995;
+    margin: 20px;
+}
+.answer:hover {
+    background-color: #C0D6DF;
+    color: #fff;
+}
