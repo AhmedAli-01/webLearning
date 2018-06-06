@@ -1,0 +1,30 @@
+puts 'Hello, world!'
+puts ''
+puts 'Good-bye.'
+puts ' '
+puts '______________________'
+puts 'String practicing'
+puts 'I will will see how it turn out. even though I seem to have mastered about puts by ruby.'
+puts '___________________________________________________________________________________________'
+puts 'I like' + 'apple pie.'
+puts 'a mistake as there is no space here'
+puts ' '
+puts 'I like ' + 'apple pie.'
+puts 'I like' + ' apple pie.'
+puts '______________________'
+puts 'String ca be multiplied by number:'
+puts ' '
+puts puts 'blink ' * 4
+puts '______________________'
+#Problems
+=begin puts '12' + 12
+puts '2' * '5'
+puts 'Betty' + 12
+puts 'Fred' * 'John'
+=end
+puts 'The backslash is the escape character'
+puts 'You\'re swell!'
+puts 'backslash at the end of a string:  \\'
+puts 'up\\down'
+puts 'up\down'
+puts '________________________'
