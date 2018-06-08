@@ -84,3 +84,14 @@ puts ''
 puts chapter1.ljust(lineWidth/3) + num.ljust(lineWidth/3) + p1.rjust(lineWidth/2)
 puts chapter2.ljust(lineWidth/3) + let.ljust(lineWidth/3) + p2.rjust(lineWidth/2)
 puts chapter3.ljust(lineWidth/3) + var.ljust(lineWidth/3) + p3.rjust(lineWidth/2)
+puts ''
+
+#Higher Math
+#This is squar root of 5
+puts 5**2
+puts 5**0.5
+puts 7/3
+#Module (Remainer number)
+puts 7%3
+puts 365%7
+
