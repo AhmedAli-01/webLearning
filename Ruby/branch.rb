@@ -5,7 +5,7 @@ if name == 'Ahmed'
   puts 'What a lovely name!'
 end
 
-puts 'another code'
+puts '___________________'
 puts ''
 puts 'I am a fortune-teller.  Tell me your name:'
 name = gets.chomp
@@ -45,3 +45,25 @@ while command != 'bye'
 end
 
 puts 'Come again soon!'
+
+puts ''
+
+puts 'Hello, what\'s your name?'
+name = gets.chomp
+puts 'Hello, ' + name + '.'
+if name == 'Ali'
+  puts 'What a lovely name!'
+else
+  if name == 'Abdi'
+    puts 'What a lovely name!'
+  end
+end
+
+puts ''
+
+puts 'Hello, what\'s your name?'
+name = gets.chomp
+puts 'Hello, ' + name + '.'
+if (name == 'Ali' or name == 'Abdi')
+  puts 'What a lovely name!'
+end
