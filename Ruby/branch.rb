@@ -1,0 +1,47 @@
+puts 'Hello, what\'s your name?'
+name = gets.chomp
+puts 'Hello, ' + name + '.'
+if name == 'Ahmed'
+  puts 'What a lovely name!'
+end
+
+puts 'another code'
+puts ''
+puts 'I am a fortune-teller.  Tell me your name:'
+name = gets.chomp
+if name == 'Ali'
+  puts 'He was a very famous and great man'
+else
+  puts 'Your future is... Oh my!  Look at the time!'
+  puts 'I really have to go, sorry!'
+end
+
+puts ''
+
+puts 'Hello, and welcome to 7th grade English.'
+puts 'My name is Mrs. Gabbard.  And your name is...?'
+name = gets.chomp
+
+if name == name.capitalize
+  puts 'Please take a seat, ' + name + '.'
+else
+  puts name + '?  You mean ' + name.capitalize + ', right?'
+  puts 'Don\'t you even know how to spell your name??'
+  reply = gets.chomp
+
+  if reply.downcase == 'yes'
+    puts 'Hmmph!  Well, sit down!'
+  else
+    puts 'GET OUT!!'
+  end
+end
+
+puts ''
+command = 'Enter What you like?'
+
+while command != 'bye'
+  puts command
+  command = gets.chomp
+end
+
+puts 'Come again soon!'
