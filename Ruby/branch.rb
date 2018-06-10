@@ -67,3 +67,13 @@ puts 'Hello, ' + name + '.'
 if (name == 'Ali' or name == 'Abdi')
   puts 'What a lovely name!'
 end
+puts '-------------------------------------'
+puts ''
+#Deaf Granma Program
+
+say = gets.chomp
+if say == say.upcase
+    puts 'NOT, NOT SINCE 1938!'
+else
+    puts 'HUH?! SPEAK UP, SONNY!'
+end
