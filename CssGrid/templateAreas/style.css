@@ -1,0 +1,44 @@
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }
+
+.container > div:nth-child(odd) {
+    background-color: #96ceb4;	
+  }
+  
+  .container > div:nth-child(even) {
+    background-color: #ff6f69;
+  }
+  
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    /* before the slash is declared the row then columns. 
+    in this example 3 rows and 12 columns*/
+    grid-template: 40px auto 40px /repeat(12, 1fr);
+    grid-template-areas: 
+    "m m h h h h h h h h h h"
+    "m m c c c c c c c c c c"
+    ". . f f f f f f f f f f";
+    /*. means blank space*/
+    
+}
+
+.header {
+    grid-area: h ;
+}
+
+.menu {
+    grid-area: m;
+}
+
+.content {
+    grid-area: c;
+}
+
+.footer {
+    grid-area: f;
+}
