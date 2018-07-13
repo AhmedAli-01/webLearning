@@ -1,0 +1,38 @@
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }
+
+.container > div:nth-child(odd) {
+    background-color: #96ceb4;	
+  }
+  
+  .container > div:nth-child(even) {
+    background-color: #ff6f69;
+  }
+  
+
+.container {
+    display: grid;
+    grid-gap: 3px;
+    /* before the slash is declared the row then columns. 
+    in this example 3 rows and 12 columns*/
+    grid-template: 40px 400px 40px /repeat(12, 1fr);
+    
+}
+
+.header {
+    grid-column: 1 / -1;
+}
+
+.menu {
+    grid-column: 1 / 3;
+}
+
+.content {
+    grid-column: 3 / -1;
+}
+
+.footer {
+    grid-column: 1 / -1;
+}
