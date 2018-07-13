@@ -1,0 +1,32 @@
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }
+
+  .container > div:nth-child(1n) {
+    background-color: #96ceb4;	
+  }
+  
+  .container > div:nth-child(3n) {
+    background-color: #88d8b0;
+  }
+  
+  .container > div:nth-child(2n) {
+        background-color: #ff6f69;
+  }
+  
+  .container > div:nth-child(4n) {
+        background-color: #ffcc5c;
+  }
+  
+
+.container {
+    
+    display: grid;
+    grid-gap: 5px;
+    /* before the slash is declared the row then columns. 
+    in this example 3 rows and 12 columns*/
+    grid-template: repeat(6, 100px) / repeat(auto-fit, minmax(100px, 1fr));
+    
+}
+
